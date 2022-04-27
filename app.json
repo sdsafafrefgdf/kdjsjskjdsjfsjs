@@ -1,0 +1,34 @@
+{
+    "name": "Ridogram's Assistant",
+    "description": "@Ridogram's assistant to deal with people at @RidogramChat.",
+    "logo": "https://telegra.ph/file/5f0e2d045243c6ab2a4a0.jpg",
+    "keywords": ["assistant"],
+    "repository": "https://github.com",
+    "env": {
+      "api_id": {
+        "description": "Collect this value from my.telegram.org and do not share it with anyone.",
+        "value": "",
+        "required": true
+      },
+      "api_hash": {
+        "description": "Collect this value from my.telegram.org and do not share it with anyone.",
+        "value": "",
+        "required": true
+      },
+      "bot_token": {
+        "description": "Collect this value from @BotFather and do not share it with anyone.",
+        "value": "",
+        "required": true
+      },
+      "developer": {
+        "description": "Enter the Developer's ID.",
+        "value": "",
+        "required": true
+      },
+      "support_group": {
+        "description": "Enter Support Group ID",
+        "value": "",
+        "required": true
+      }
+    }
+  }
